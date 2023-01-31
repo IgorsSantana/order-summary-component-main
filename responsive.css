@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) {
+    body {
+        background: none;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .box {
+        width: 300px;
+        height: 500px;
+        margin-left: -150px;
+        margin-top: -250px;
+    }
+    .box .image img {
+        width: 300px;
+    }
+    .text h1 {
+        padding: 0px 35px 0 35px;
+    }
+    .text h2 {
+        padding: 0px 35px 0 35px;
+        font-size: 14px;
+    }
+    .plan {
+        margin: 20px 30px 0 30px;
+    }
+    .plan img {
+        width: 40px;
+        height: 40px;
+    }
+    .plan h3 {
+        font-size: 13px;
+    }
+    .plan h3 span {
+        font-size: 13px;
+    }
+    .plan h4 {
+        padding-left: 50px;
+        font-size: 11px;
+    }
+    .buttons .button1 {
+        height: 45px;
+        margin: 10px 30px 0 30px;
+    }
+    .buttons .button2 {
+        height: 45px;
+        margin: 10px 30px 0 30px;
+    }
+}

@@ -1,0 +1,113 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: cover;
+}
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -300px;
+    position: absolute;
+}
+.box .image img {
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text h1 {
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    padding: 0 40px 0 40px;
+    font-size: 23px;
+    font-weight: 900;
+}
+.text h2 {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 15px;
+    padding: 0 40px 0 40px;
+    font-weight: 500;
+}
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 30px 40px 0 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.plan img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.plan h3 {
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+    font-weight: 900;
+}
+.plan h3 span {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-weight: 500;
+}
+.plan h4 {
+    text-align: right;
+    padding-left: 70px;
+    padding-right: 10px;
+    font-size: 13px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.plan h4:hover {
+    opacity: 80%;
+}
+.buttons {
+    align-items: center;
+}
+.buttons .button1 {
+    height: 50px;
+    width: 80%;
+    margin: 10px 40px 0 40px;
+    padding: 0;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+.buttons .button1:hover {
+    opacity: 80%;
+}
+.buttons .button2 {
+    height: 50px;
+    width: 80%;
+    margin: 10px 40px 0 40px;
+    padding: 0;
+    border: none;
+    background: none;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+.buttons .button2:hover {
+    color: hsl(223, 47%, 23%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
